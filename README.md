@@ -1,5 +1,3 @@
-# Welcome!
-Thanks for stopping by! Here you will find a portfolio of selected projects. Please reach out to me at katrinali2024@u.northwestern.edu if you have any questions. Also feel free to check out my personal website as well at www.weihangkatrinali.com :)
+# Edit-Distance
 
-# License and Usage Rights
-This repository and its contents are provided for viewing only. All rights are reserved by the author. 
+The primary goal of this was to implement the minimum edit distance algorithm. The algorithm is useful for cases like finding potential spelling error corrections and providing the minimum cost alignment between two strings. 
