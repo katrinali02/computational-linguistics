@@ -1,2 +1,2 @@
 # Project Description
-Implement Latent Dirichlet Allocation topic model using collapsed Gibbs sampling for learning procedure and test it using a toy dataset and other real-world data
+Implemented a Latent Dirichlet Allocation (LDA) topic model using collapsed Gibbs sampling. The task involved filling in the `LDATopicModel` class to train the model on both toy and real-world datasets. Key functions to implement included initializing and updating counts, and calculating topic distributions (`theta_d_i` and `phi_i_v`). The training process involved re-sampling topic assignments for each word iteratively, following the provided equations from pg. 15 of the "Applications of Topic Models" book: https://mimno.infosci.cornell.edu/papers/2017_fntir_tm_applications.pdf
