@@ -1,3 +1,3 @@
 # Project Description
 
-Implement unigram and bigram language models and evaluate their performance by implementing maximum likelihood estimation with add-k smoothing, as well as a perplexity calculation to test models.
+Implemented unigram and bigram language models and evaluated their performance using maximum likelihood estimation with add-k smoothing and perplexity calculation. The models were later tested on toy data. The task involved defining an `NgramLanguageModel` class, implementing the `train`, `predict_unigram`, `predict_bigram`, and `test_perplexity` functions. Training required accumulating counts from tokenized sentences with start and end tokens. Predictions used add-k smoothing and log probabilities to avoid floating point underflow. Perplexity was calculated as the normalized total log-likelihood of a test corpus.
