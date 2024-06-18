@@ -1,3 +1,3 @@
 # Project Description
 
-Implement the minimum edit distance algorithm (useful for cases like finding potential spelling error corrections and providing the minimum cost alignment between two strings)
+Implemented the minimum edit distance algorithm. The code includes functions for calculating edit distances, deletions, insertions, and substitutions, with costs defined as Levenshtein distances. Tested the program by running `python edit_distance.py word1 word2` to see the calculated edit distance between two words.
